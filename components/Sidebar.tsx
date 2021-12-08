@@ -65,14 +65,14 @@ export const Sidebar = () => {
       {/* Email Button */}
 
       <button
-        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
+        className="w-8/12 px-5 py-2 text-white rounded-full cursor-pointer bg-classicblue hover:scale-105 focus:outline-none"
         onClick={() => window.open("aaa@gmail.com")}
       >
         Email me
       </button>
       <button
         onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 "
+        className="w-8/12 px-5 py-2 my-4 text-white rounded-full cursor-pointer bg-classicblue focus:outline-none hover:scale-105 "
       >
         {/* //TODO remove bg black */}
         Toggle Theme
