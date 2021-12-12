@@ -74,7 +74,6 @@ export const Sidebar = () => {
         onClick={changeTheme}
         className="w-8/12 px-5 py-2 my-4 text-white rounded-full cursor-pointer bg-classicblue focus:outline-none hover:scale-105 "
       >
-        {/* //TODO remove bg black */}
         Toggle Theme
       </button>
     </>

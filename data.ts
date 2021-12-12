@@ -57,18 +57,18 @@ export const languages: ISkill[] = [
     name: "Python",
     level: "40",
   },
-  {
-    Icon: BsCircleFill,
-    name: "Azure",
-    level: "40",
-  },
 ];
 
 export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Figma",
-    level: "20",
+    level: "25",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Azure",
+    level: "40",
   },
 ];
 

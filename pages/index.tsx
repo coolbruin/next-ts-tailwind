@@ -17,7 +17,7 @@ const index = () => {
         <br />⚡ Fun fact: training　🏋　, playing game　🎮　and coffee ☕
       </h6>
       <div
-        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
+        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-500"
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
         <h6 className="my-3 font-bold tracking-wide text-x1">What I Offer</h6>
