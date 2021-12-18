@@ -75,8 +75,8 @@ export const tools: ISkill[] = [
 export const projects: IProject[] = [
   {
     name: "next-ts-tailwind",
-    description: "This app",
-    image_path: "/images/",
+    description: "このアプリです。",
+    image_path: "/images/projects/next-ts-tailwind.jpg",
     deployed_url: "/",
     github_url: "/",
     category: ["react"],

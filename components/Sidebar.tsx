@@ -1,4 +1,9 @@
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+  AiFillYoutube,
+} from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
@@ -41,7 +46,7 @@ export const Sidebar = () => {
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-classicblue md:w-full ">
         <a href="">
-          <AiFillYoutube className="w-8 h-8 cursor-pointer" />
+          <AiFillTwitterCircle className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />

@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         </div>
         <div className="flex flex-col col-span-12 overflow-hidden bg-white dark:bg-dark-500 lg:col-span-9 rounded-2xl shadow-custom-light dark:shadow-custom-dark">
           <Navbar />
-          <Component {...pageProps} />;
+          <Component {...pageProps} />
         </div>
       </div>
     </ThemeProvider>
