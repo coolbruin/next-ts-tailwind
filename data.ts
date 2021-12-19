@@ -82,4 +82,14 @@ export const projects: IProject[] = [
     category: ["react"],
     key_techs: ["Next.js", "TypeScript", "TailwindCSS"],
   },
+  {
+    name: "nuxt-portfolio",
+    description:
+      "Nuxt版のポートフォリオサイトです。業務でVueとVuetifyを使う機会があり、練習として作成しました。",
+    image_path: "/images/projects/nuxt-portfolio.png",
+    deployed_url: "https://nuxt-portfolio-lyart.vercel.app/",
+    github_url: "https://github.com/coolbruin/nuxt-portfolio",
+    category: ["vue"],
+    key_techs: ["Vue.js", "Vuetify"],
+  },
 ];
